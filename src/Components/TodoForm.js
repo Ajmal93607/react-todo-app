@@ -1,12 +1,3 @@
-// import React, { useState } from 'react';
-
-// export const TodoForm = ({ addTodo }) => (
-//   <form onSubmit={(e) => { e.preventDefault(); if (e.target[0].value) { addTodo(e.target[0].value); e.target[0].value = ''; } }} className="TodoForm">
-//     <input type="text" className="todo-input" placeholder="What is the task today?" />
-//     <button type="submit" className="todo-btn">Add Task</button>
-//   </form>
-// );
-
 import React, {useState} from 'react'
 
 export const TodoForm = ({addTodo}) => {
